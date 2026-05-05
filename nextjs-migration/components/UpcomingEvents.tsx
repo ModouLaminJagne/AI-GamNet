@@ -61,7 +61,14 @@ export default function UpcomingEvents() {
                 </div>
 
                 <button className="w-full px-4 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all font-semibold">
-                  Learn More
+                  <a
+                    href={event.registration}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all font-semibold"
+                    >
+                    Register Now
+                </a>
                 </button>
               </div>
             </div>

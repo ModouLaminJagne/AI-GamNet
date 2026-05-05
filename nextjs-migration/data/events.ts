@@ -7,6 +7,7 @@ export const upcomingEvents = [
     time: '09:00 AM - 5:00 PM',
     location: 'University of The Gambia',
     category: 'Workshop',
+    // registration: 'https://indaba-x-gambia.vercel.app/#'
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const upcomingEvents = [
     time: '3:00 PM - 4:30 PM',
     location: 'Online',
     category: 'Webinar',
+    // registration: 'https://indaba-x-gambia.vercel.app/#'
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const upcomingEvents = [
     time: '5:00 PM - 7:00 PM',
     location: 'The Hub Ltd, Banjul',
     category: 'Networking',
+    // registration: 'https://indaba-x-gambia.vercel.app/#'
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const upcomingEvents = [
     time: '8:30 AM - 5:00 PM',
     location: 'University of The Gambia',
     category: 'Conference',
+    registration: 'https://indaba-x-gambia.vercel.app/#'
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const upcomingEvents = [
     time: 'Flexible',
     location: 'Online & In-Person',
     category: 'Mentorship',
+    // registration: 'https://indaba-x-gambia.vercel.app/#'
   },
   {
     id: 6,
@@ -52,5 +57,6 @@ export const upcomingEvents = [
     time: '10:00 AM - 3:00 PM',
     location: 'University of The Gambia',
     category: 'Collaboration',
+    // registration: 'https://indaba-x-gambia.vercel.app/#'
   },
 ]
