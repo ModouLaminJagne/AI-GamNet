@@ -153,7 +153,7 @@ No need to touch component files for content changes!
 
 Place images in `/public/images/` and reference them in data files:
 ```typescript
-image: '/images/speaker-name.jpg'
+image: '/images/Ousman-Bah.webp'
 ```
 
 ## Styling Customization

@@ -71,7 +71,7 @@ Load Time: <2 seconds
 <!-- 50+ times in index.php -->
 <div class="speaker-card col-lg-3 col-md-4 col-sm-6">
   <div class="card speakers-member wow fadeIn">
-    <img src="/wp-content/uploads/2023/05/speaker.jpg" alt="">
+    <img src="/images/Ousman-Bah.webp" alt="">
     <div class="member-desc">
       <h3>Speaker Name</h3>
       <h5>Organization</h5>
@@ -85,7 +85,7 @@ Load Time: <2 seconds
 ```typescript
 // data/people.ts - Single definition
 export const speakers = [
-  { name: 'Speaker Name', role: 'Organization', image: '/images/speaker.jpg' },
+  { name: 'Speaker Name', role: 'Organization', image: '/images/Ousman-Bah.webp' },
 ]
 
 // app/page.tsx - Use it

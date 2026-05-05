@@ -65,7 +65,7 @@ export const speakers = [
     id: 1,
     name: 'Dr. Dina Machuve',
     role: 'DevData Analytics',
-    image: '/images/dina.jpg',
+    image: '/images/Ousman-Bah.webp',
   },
   // ... structured, easy to update
 ]
@@ -161,7 +161,7 @@ nextjs-migration/
   name: 'Your Name',
   role: 'Organization',
   position: 'Title',
-  image: '/images/your-image.jpg',
+  image: 'assets/images/Ousman-Bah.webp',
 }
 ```
 3. Save - automatically appears on site!

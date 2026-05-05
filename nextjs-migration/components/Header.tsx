@@ -1,8 +1,10 @@
 'use client'
 
+import Image from 'next/image'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
 import { useState } from 'react'
+import logo from '@/assets/images/aig1.png'
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -19,8 +21,17 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-white shadow-md">
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
-          <Link href="/" className="text-2xl font-bold text-primary">
-            IndabaX <span className="text-dark">Gambia</span>
+          <Link href="/" className="flex items-center gap-2 text-2xl font-bold text-primary">
+            <Image 
+              src={logo} 
+              alt="AI-GAMNET Logo" 
+              width={40}
+              height={40}
+              className="h-10 w-10 object-contain"
+            />
+            <span className="leading-none">
+              AI <span className="text-dark">GAMNET</span>
+            </span>
           </Link>
 
           <nav className="hidden md:flex gap-8">
@@ -42,7 +53,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all font-semibold"
             >
-              Apply Now
+              Register Now
             </a>
           </div>
 
@@ -73,7 +84,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-opacity-90 transition-all font-semibold text-center"
             >
-              Apply Now
+              Register Now
             </a>
           </nav>
         )}

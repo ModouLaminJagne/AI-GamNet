@@ -13,9 +13,9 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <h3 className="text-2xl font-bold text-primary mb-2">IndabaX Gambia</h3>
+            <h3 className="text-2xl font-bold text-primary mb-2">AI-GAMNET</h3>
             <p className="text-gray-400">
-              Building a sustainable pan-African community of AI expertise.
+              Building a sustainable pan-African community of AI expertise through research, innovation, and collaboration.
             </p>
           </div>
 
@@ -52,7 +52,7 @@ export default function Footer() {
 
         <div className="border-t border-gray-700 pt-8 flex items-center justify-between">
           <p className="text-gray-400 text-sm">
-            Designed and Developed by <span className="text-primary font-semibold">IndabaX Gambia</span>
+            Designed and Developed by <span className="text-primary font-semibold">AI-GAMNET</span>
           </p>
 
           <button

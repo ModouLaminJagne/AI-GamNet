@@ -1,17 +1,20 @@
 'use client'
 
+import { StaticImageData } from 'next/dist/shared/lib/image-external'
 import PersonCard from './PersonCard'
 
+
+interface Person {
+  id: number
+  name: string
+  role: string
+  position: string
+  image: StaticImageData | string
+}
 interface PersonGridProps {
   title: string
   subtitle?: string
-  people: Array<{
-    id: number
-    name: string
-    role: string
-    position: string
-    image: string
-  }>
+  people: Person[]
 }
 
 export default function PersonGrid({ title, subtitle, people }: PersonGridProps) {

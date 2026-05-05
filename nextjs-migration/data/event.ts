@@ -1,5 +1,5 @@
 export const eventInfo = {
-  title: 'DEEP LEARNING INDABAX THE GAMBIA',
+  title: 'ARTIFICIAL INTELLIGENCE GAMBIA NETWORK (AI-GAMNET)',
   subtitle: 'The Application of Deep Learning in Agriculture',
   location: 'University of The Gambia, Peace Building, Kanifing',
   startDate: '2023-07-25',
@@ -11,23 +11,38 @@ export const eventInfo = {
     speakers: 12,
     participants: 70,
   },
-  description: 'We introduce the IndabaX: a way to experiment with the ways in which we can strengthen our Machine Learning community, and to allow more people to contribute to the conversation. A Deep Learning IndabaX is a locally-organised, typically a three-day Indaba that helps spread knowledge and builds capacity in machine learning.',
+  description: 'AI-GAMNET is a community that conducts various events including the IndabaX as our flagship event. The Deep Learning IndabaX is a locally-organised, typically a three-day conference that brings together experts, researchers, professionals, and students to discuss latest developments in AI and Machine Learning, strengthen our community, and build capacity in these fields.',
 }
 
 export const whyJoin = [
   {
-    icon: 'Zap',
-    title: 'Get Inspired',
-    description: 'A three-day workshop that brings people together to discuss latest development with short talks and a panel discussion, across your institution, in Datascience/AI',
+    icon: 'Users',
+    title: 'Network & Collaborate',
+    description: 'Connect with leading AI researchers, professionals, and innovators across Africa and beyond',
   },
   {
-    icon: 'Users',
-    title: 'Training',
-    description: 'A structured series of lectures and tutorials by invited speakers from the country, continent, and abroad on specialized topics',
+    icon: 'BookOpen',
+    title: 'Professional Development',
+    description: 'Access workshops, seminars, and training from industry experts and leading academics',
+  },
+  {
+    icon: 'Zap',
+    title: 'Drive Innovation',
+    description: 'Contribute to groundbreaking AI research and real-world projects solving local challenges',
+  },
+  {
+    icon: 'Briefcase',
+    title: 'Career Growth',
+    description: 'Advance your career in AI with mentorship, opportunities, and industry connections',
   },
   {
     icon: 'TrendingUp',
-    title: 'Fresh Tech Insights',
-    description: 'Participants range from undergraduate students, research students, lecturers and academic, industry professionals and startups.',
+    title: 'Stay Updated',
+    description: 'Keep pace with cutting-edge developments in AI, Machine Learning, and Data Science',
+  },
+  {
+    icon: 'Award',
+    title: 'Build Impact',
+    description: 'Be part of a movement transforming the AI landscape and creating opportunities across Africa',
   },
 ]

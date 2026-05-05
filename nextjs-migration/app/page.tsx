@@ -2,7 +2,7 @@ import Hero from '@/components/Hero'
 import EventDetails from '@/components/EventDetails'
 import WhyJoin from '@/components/WhyJoin'
 import PersonGrid from '@/components/PersonGrid'
-import Schedule from '@/components/Schedule'
+import UpcomingEvents from '@/components/UpcomingEvents'
 import Sponsors from '@/components/Sponsors'
 import { speakers, organizers, volunteers } from '@/data/people'
 import { eventInfo } from '@/data/event'
@@ -18,7 +18,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="mb-12">
             <h2 className="text-4xl font-bold text-dark mb-4 text-center animate-slideIn">
-              About This Event
+              About <span className="text-primary">AI-GAMNET</span>
             </h2>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto text-center mb-12">
               {eventInfo.description}
@@ -31,24 +31,24 @@ export default function Home() {
       {/* Why Join */}
       <WhyJoin />
 
-      {/* Speakers */}
+      {/* Featured Thought Leaders */}
       <PersonGrid
-        title="Meet Our Speakers"
-        subtitle="Speakers whose focus are on data science, with plans to develop a vibrant research group on data science in The Gambia."
+        title="Featured Thought Leaders"
+        subtitle="Meet the researchers, professionals, and innovators driving AI innovation and excellence in Africa."
         people={speakers}
       />
 
-      {/* Schedule */}
-      <Schedule />
+      {/* Upcoming Events */}
+      <UpcomingEvents />
 
       {/* Sponsors */}
       <Sponsors />
 
       {/* Organizers */}
-      <PersonGrid title="Our Organisers" people={organizers} />
+      <PersonGrid title="Executive" people={organizers} />
 
       {/* Volunteers */}
-      <PersonGrid title="Volunteer Organisers" people={volunteers} />
+      <PersonGrid title="Volunteer Members" people={volunteers} />
     </main>
   )
 }

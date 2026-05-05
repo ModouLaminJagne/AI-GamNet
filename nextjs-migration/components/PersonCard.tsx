@@ -1,12 +1,12 @@
 'use client'
 
-import Image from 'next/image'
+import Image, { StaticImageData } from 'next/image'
 
 interface PersonCardProps {
   name: string
   role: string
   position: string
-  image: string
+  image: StaticImageData | string
 }
 
 export default function PersonCard({ name, role, position, image }: PersonCardProps) {
@@ -19,7 +19,7 @@ export default function PersonCard({ name, role, position, image }: PersonCardPr
           fill
           className="object-cover"
           onError={(e) => {
-            e.currentTarget.src = '/images/placeholder.jpg'
+            e.currentTarget.src = '/images/Ousman-Bah.webp'
           }}
         />
       </div>

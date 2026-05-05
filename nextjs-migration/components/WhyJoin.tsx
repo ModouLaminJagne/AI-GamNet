@@ -1,12 +1,15 @@
 'use client'
 
 import { whyJoin } from '@/data/event'
-import { Zap, Users, TrendingUp } from 'lucide-react'
+import { Zap, Users, TrendingUp, BookOpen, Briefcase, Award } from 'lucide-react'
 
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Zap,
   Users,
   TrendingUp,
+  BookOpen,
+  Briefcase,
+  Award,
 }
 
 export default function WhyJoin() {
@@ -16,13 +19,13 @@ export default function WhyJoin() {
         <div className="text-center mb-12">
           <h2 className="text-4xl font-bold text-dark mb-4 animate-slideIn">Why Join</h2>
           <p className="text-gray-600 max-w-2xl mx-auto text-lg">
-            IndabaX aims to build a sustainable pan-African community of AI expertise,<br />
-            create local leadership in AI in every country across the continent,<br /> and
+            AI-GamNet aims to build a sustainable pan-African community of AI expertise,<br />
+            create local leadership in AI across The Gambia,<br /> and
             recognise excellence in research and application of AI technologies.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {whyJoin.map((item, index) => {
             const Icon = iconMap[item.icon]
             return (

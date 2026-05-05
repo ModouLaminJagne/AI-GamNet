@@ -1,27 +1,27 @@
 'use client'
 
-import { MapPin, Calendar, Mic, BookOpen } from 'lucide-react'
+import { Target, Calendar, Zap, Users } from 'lucide-react'
 
 const eventDetails = [
   {
-    icon: MapPin,
-    title: 'Location',
-    content: 'University of The Gambia, Peace Building, Kanifing',
+    icon: Target,
+    title: 'Mission',
+    content: 'Building a sustainable pan-African community of AI expertise',
   },
   {
     icon: Calendar,
-    title: 'Date & Time',
-    content: '08h30 - 17h00, July 25 - 27, 2023',
+    title: 'Founded',
+    content: '2023 - Connecting researchers, professionals, and innovators',
   },
   {
-    icon: Mic,
-    title: 'Speakers',
-    content: '12 Tech Icons and Professionals',
+    icon: Zap,
+    title: 'Focus Areas',
+    content: 'AI, Machine Learning, Deep Learning, Data Science',
   },
   {
-    icon: BookOpen,
-    title: 'Participants',
-    content: '70 People',
+    icon: Users,
+    title: 'Members',
+    content: 'Growing community of researchers and professionals',
   },
 ]
 
